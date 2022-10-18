@@ -74,6 +74,10 @@
   .sponsors {
     text-align: center;
   }
+  #slider__container{
+    width: 90vw;
+}
+
   .contacto {
     padding: 50px;
   }
