@@ -203,6 +203,13 @@ main {
   width: 100%;
   margin-top: 50px;
 }
+.instagram{
+  padding:50px 20px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
 .contacto {
   justify-content: center;
