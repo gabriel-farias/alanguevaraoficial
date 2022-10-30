@@ -1,4 +1,4 @@
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1400px) {
   body {
     background-color: black;
   }
@@ -6,7 +6,7 @@
     justify-content: space-around;
   }
   .hero {
-    max-width: 1800px;
+    max-width: 1400px;
     box-shadow: 600px 100px 500px black inset;
   }
   .about-me,
@@ -37,24 +37,14 @@
   .about-me__info {
     width: 100%;
   }
-  .login,
-  .registro {
-    text-align: center;
-  }
-  .tienda {
-    grid-template-columns: 0.7fr;
-    padding: 10px;
-    justify-content: center;
-  }
-  .product__card {
-    flex-direction: column;
-  }
-  .product__card img {
-    width: 100%;
-  }
+  
 }
 
 @media screen and (max-width: 480px) {
+  .hero{
+    background-position: left;
+    box-shadow: 200px 200px 1000px black inset;
+  }
   .logo img {
     width: 100px;
   }

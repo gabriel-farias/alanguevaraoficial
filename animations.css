@@ -102,7 +102,7 @@
   }
 }
 
-/* .about-me__image img {
+/* .hero:hover {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
   -webkit-animation-duration: 2s;
@@ -118,6 +118,7 @@
   }
   100% {
     opacity: 1;
+    
   }
 }
 @keyframes fadeIn {
@@ -126,6 +127,7 @@
   }
   100% {
     opacity: 1;
+    
   }
 }
 /* .about-me__image {

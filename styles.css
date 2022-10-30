@@ -15,9 +15,8 @@ font-family: 'Poppins', sans-serif; */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
-body{
+body {
   background-color: var(--black);
 }
 
@@ -38,18 +37,15 @@ header {
 .logo img {
   width: 150px;
 }
-.navbar-nav{
-  gap: 30px;
-}
 
-.nav-item{
+.nav-item {
   background-color: var(--white);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-.nav-link:hover{
+.nav-link:hover {
   color: var(--blue) !important;
 }
-.navbar-collapse{
+.navbar-collapse {
   margin-top: 22px;
 }
 main {
@@ -57,6 +53,7 @@ main {
   border-top: 10px solid var(--red);
   border-bottom: 10px solid var(--red);
 }
+
 .hero {
   background: url("./assets/alan-trofeo.jpg");
   background-repeat: no-repeat;
@@ -78,11 +75,9 @@ main {
 }
 .bienvenidos h1 {
   font-size: 3em;
-  
 }
 .bienvenidos h2 {
   font-size: 2em;
-  
 }
 
 .trayectoria {
@@ -103,23 +98,37 @@ main {
   gap: 20px;
   justify-content: center;
 }
+
 .card {
   max-width: 290px;
   min-width: 200px;
   border-radius: 15px;
-  background-color: var(--black);
-  padding: 5px;
+  background-color: var(--blue);
+  border: 5px solid var(--black);
 }
 .card img {
   width: 100%;
   border-radius: 15px 15px 0 0;
 }
+
 .card__title {
+  color: var(--black);
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    121deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 70%,
+    rgba(226, 2, 34, 1) 75%,
+    rgba(1, 33, 136, 1) 90%
+  );
+  border-bottom: 5px solid var(--red);
+  border-top: 5px solid var(--blue);
   padding: 5px;
 }
 .card__info {
   font-size: 14px;
-  padding: 5px;
+  padding: 0 5px;
+  background-color: var(--blue);
 }
 
 .about-me {
@@ -158,6 +167,11 @@ main {
 .about-me__image img {
   max-height: 600px;
 }
+.button:hover{
+ 
+  color: var(--black);
+  font-weight: 600;
+}
 .button {
   width: 150px;
   height: 50px;
@@ -175,15 +189,20 @@ main {
 .sponsors {
   display: flex;
   flex-direction: column;
-  align-items:center;
+  align-items: center;
   background: var(--black);
   color: var(--white);
   gap: 30px;
   font-family: "Poppins", sans-serif;
-  padding: 50px 100px;
+  padding: 100px 100px;
   border-top: 3px solid rgb(27, 27, 27);
+  border-bottom: 3px solid rgb(27, 27, 27);
 }
 
+.fundacion img{
+  width: 100%;
+  margin-top: 50px;
+}
 
 .contacto {
   justify-content: center;
@@ -209,16 +228,13 @@ main {
 }
 .contacto__redes {
   display: grid;
-  grid-template-columns: 40px  200px;
+  grid-template-columns: 40px 200px;
   grid-template-rows: auto;
   align-content: center;
 }
 .contacto p {
   margin-bottom: 0;
 }
-
-
-
 
 footer {
   display: flex;
