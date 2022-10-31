@@ -42,8 +42,9 @@
 
 @media screen and (max-width: 480px) {
   .hero{
-    background-position: left;
-    box-shadow: 200px 200px 1000px black inset;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 100px 200px 1000px black inset;
   }
   .logo img {
     width: 100px;
