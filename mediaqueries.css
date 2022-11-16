@@ -48,6 +48,10 @@
 }
 
 @media screen and (max-width: 480px) {
+  .ingresar{
+    top: 200px;
+    left: 22%;
+    }
   .hero{
     background-size: cover;
     background-position: center;
