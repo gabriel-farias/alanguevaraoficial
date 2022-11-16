@@ -17,6 +17,10 @@
     margin-left: 10%;
     margin-right: 10%;
   }
+  .ingresar{
+  top: 200px;
+  left: 42%;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -37,7 +41,10 @@
   .about-me__info {
     width: 100%;
   }
-  
+  .ingresar{
+    top: 100px;
+    left: 37%;
+    }
 }
 
 @media screen and (max-width: 480px) {

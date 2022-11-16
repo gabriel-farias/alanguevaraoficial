@@ -259,5 +259,47 @@ footer p {
   align-items: center;
   gap: 5px;
 }
+.bodyIndex{
+  display: flex;
+  position: relative;
+}
+.video{
+  position: fixed;
+  right: 0;
+  top: 0;
+  min-width: 105%;
+  min-height: 100%;
+  transform: translateX(calc((100% - 100vw) / 2));
+  z-index: -2;
+}
+.ingresar{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 150px;
+  left: 40%;
+}
+.ingresar a{
+  text-decoration: none;
+}
+.logoIndex{
+  width: 220px;
+}
 
-
+.btn-ingresar{
+  background: var(--white);
+  color: var(--blue);
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  width: fit-content;
+  
+}
+.btn-ingresar:hover{
+  background: var(--black);
+  color: var(--white);
+}
